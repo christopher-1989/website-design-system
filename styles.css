@@ -163,3 +163,24 @@ p {
         font-size: 20px;
     }
   }
+
+  /* Button styling */
+
+  .btn-container {
+      width: 200px;
+      margin: 0 auto;
+  }
+
+  .boilerplate-html-button {
+    text-decoration: none;
+    border: 1px solid #fffe;
+    background-color: #14bdbd;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .boilerplate-html-button:hover {
+    border: 1px solid #232323;
+    background-color: #fffe;
+    transition: all 0.2s ease-out;
+  }
