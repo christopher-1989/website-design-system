@@ -2,23 +2,31 @@
     box-sizing: border-box;
     margin: 0 0;
     padding: 0 0;
+    color: #232323;
 }
 
 main {
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+}
+
+.title {
+    padding: 30px;
 }
 
 /* Colors styling */
 
 .colors-container {
-    max-width: 100%;
+    max-width: 90%;
     margin: 20px auto;
+    border: 3px solid;
+    padding: 20px;
 }
 
 .color {
     display: inline-block;
+    max-width: 700px;
     width: 150px;
-    max-width: 200px;
     text-align: center;
     line-height: 30px;
     font-size: 24px;
@@ -32,22 +40,29 @@ main {
 
 #white {
     background-color: #fffe;
-    border: 1px solid black;
+    border: 1px solid;
 }
 
 #aqua {
     background-color: #14bdbd;
-    border: 1px solid black;
+    border: 1px solid;
 
 }
 
 #teal {
     background-color: #0b925e;
-    border: 1px solid black;
+    border: 1px solid;
 
 }
 
 /* Fonts styling */
+
+.fonts-container {
+    max-width: 90%;
+    margin: 20px auto;
+    border: 3px solid #232323;
+    padding: 20px;
+}
 
 .font {
     display: inline-block;
@@ -74,6 +89,24 @@ main {
 
 /* Text Styles stying */
 
+.text-styles-container {
+    max-width: 90%;
+    margin: 20px auto;
+    border: 3px solid #232323;
+    padding: 20px;
+}
+
+.text-style {
+    padding: 10px 30px;
+    max-width: 700px;
+    overflow: auto;
+}
+
+.font-style-list {
+    padding: 10px;
+    font-size: 30px;
+}
+
 h1 {
     font-size: 55px;
 }
@@ -82,12 +115,33 @@ h2 {
     font-size: 45px;
 }
 
+h3 {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 32px;
+
+}
+
+/* The divs will scale with the size of the page but the list items will not */
+
 @media screen and (max-width: 960px) {
     h1 {
       font-size: 50px;
     }
     h2 {
         font-size: 35px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 24px;
+    }
+    .font-style-list {
+        font-size: 24px;
     }
   }
   
@@ -99,5 +153,13 @@ h2 {
     h2 {
       font-size: 24px;
     }
-
+    h3 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .font-style-list {
+        font-size: 20px;
+    }
   }
