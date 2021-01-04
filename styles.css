@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Colors styling */
+
+.colors-container {
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.color {
+    display: inline-block;
+    width: 150px;
+    max-width: 200px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+    padding: 20px;
+}
+
+#black {
+    background-color: #232323;
+    color: white;
+}
+
+#white {
+    background-color: #fffe;
+    border: 1px solid black;
+}
+
+#aqua {
+    background-color: #14bdbd;
+    border: 1px solid black;
+
+}
+
+#teal {
+    background-color: #0b925e;
+    border: 1px solid black;
+
+}
+
+/* Fonts styling */
+
+.font {
+    display: inline-block;
+    width: 400px;
+    max-width: 700px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+    padding: 20px;
+    overflow: auto;
+}
+
+#pt-sans {
+    font-family: "PT Sans", sans-serif;
+}
+
+#roboto {
+    font-family: Roboto, sans-serif;
+}
+
+#helvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+/* Text Styles stying */
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+@media screen and (max-width: 960px) {
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 40px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+
+  }
