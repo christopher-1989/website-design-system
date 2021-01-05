@@ -36,6 +36,7 @@ main {
 #black {
     background-color: #232323;
     color: white;
+    border: 1px solid;
 }
 
 #white {
@@ -53,6 +54,12 @@ main {
     background-color: #0b925e;
     border: 1px solid;
 
+}
+
+#grey {
+    background-color: #201F2E;
+    color: #fffe;
+    border: 1px solid;
 }
 
 /* Fonts styling */
