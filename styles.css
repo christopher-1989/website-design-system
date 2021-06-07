@@ -17,26 +17,42 @@ main {
 /* Colors styling */
 
 .colors-container {
-    max-width: 90%;
-    margin: 20px auto;
-    border: 3px solid;
-    padding: 20px;
+    max-width: 90vw;
+    margin-left: 4vw;
+    margin-top: 10vh;
+    justify-content: center;
+    border: #201F2E 1px solid;
+    border-radius: 2%;
 }
 
-.color {
-    display: inline-block;
-    max-width: 700px;
-    width: 150px;
+.colors-container > h2 {
     text-align: center;
-    line-height: 30px;
-    font-size: 24px;
-    padding: 20px;
+    margin: 5px;
+}
+
+.colors-card-container {
+    /* max-width: 90%;
+    margin: 20px auto;
+    border: 3px solid;
+    padding: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-card {
+    text-align: center;
+    min-width: 70px;
+    flex:1;
+    border-radius: 2%;
+    margin: 3px;
+    max-width: 100px;
 }
 
 #black {
     background-color: #232323;
     color: white;
-    border: 1px solid;
+    border: #232323 1px solid;
 }
 
 #white {
@@ -53,13 +69,12 @@ main {
 #teal {
     background-color: #0b925e;
     border: 1px solid;
-
 }
 
 #grey {
     background-color: #201F2E;
     color: #fffe;
-    border: 1px solid;
+    border: #201F2E 1px solid;
 }
 
 /* Fonts styling */
@@ -174,8 +189,9 @@ p {
   /* Button styling */
 
   .btn-container {
-      width: 200px;
-      margin: 0 auto;
+      display: flex;
+      min-width: 50px;
+      justify-content: center;
   }
 
   .boilerplate-html-button {
