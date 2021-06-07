@@ -1,4 +1,4 @@
-const colourStyles = [
+export const colourStyles = [
     {
         colour: "Black",
         hex: "#232323"
@@ -21,9 +21,9 @@ const colourStyles = [
     }
 ]
 
-const fonts = ["pt-sans", "roboto", "helvetica"];
+export const fonts = ["pt-sans", "roboto", "helvetica"];
 
-const fontSizes = {
+export const fontSizes = {
     full: {
         h1: "55px",
         h2: "45px",
