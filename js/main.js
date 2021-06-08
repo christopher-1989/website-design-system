@@ -42,25 +42,25 @@ const fonts = [
 
 const fontSizes = {
     h1: {
-        heading: "Herosection heading",
+        heading: "h1 - herosection heading",
         fullSize: "55px",
         tabletSize: "50px",
         phoneSize: "38px"
     },
     h2: {
-        heading: "Herosection subheading",
+        heading: "h2 - herosection subheading",
         fullSize: "45px",
         tabletSize: "35px",
         phoneSize: "24px"
     },
     h3: {
-        heading: "Second subheading",
+        heading: "h3 - second subheading",
         fullSize: "30px",
         tabletSize: "28px",
         phoneSize: "20px"
     },
     p: {
-        heading: "Herosection paragraph",
+        heading: "p - herosection paragraph",
         fullSize: "22px",
         tabletSize: "18px",
         phoneSize: "16px"
@@ -79,7 +79,7 @@ document.getElementById("colours-card-container").innerHTML = fullHTMLtext
 //logic for inserting fonts into index.html
 fullHTMLtext = "";
 fonts.forEach(fontObject => {
-    const card = `<div class='font-card' id="${fontObject.font}" style="${fontObject.fontFamily}"><h3><u>${fontObject.font}</u></h3><p>STANDARD: The monkey crossed the road.</p><p><strong>BOLD: The monkey crossed the road.</strong></p><p><em>ITALICS: The monkey crossed the road.</em></p></div>`;
+    const card = `<div class='font-card' id="${fontObject.font}" style="${fontObject.fontFamily}"><h3><u>${fontObject.font}</u></h3><p>STANDARD: The monkey crossed the road.</p><strong><p>BOLD: The monkey crossed the road.</p></strong><em><p>ITALICS: The monkey crossed the road.</p></em></div>`;
     fullHTMLtext += card; 
 });
 
