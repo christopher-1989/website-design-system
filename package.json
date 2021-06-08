@@ -1,3 +1,21 @@
 {
-    "type": "module"
+  "type": "module",
+  "name": "website-design-system",
+  "description": "This project was intended for the creator to be able to store/showcase the basic design styles that would commonly be used when creating a website.",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopher-1989/website-design-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopher-1989/website-design-system/issues"
+  },
+  "homepage": "https://github.com/christopher-1989/website-design-system#readme"
 }

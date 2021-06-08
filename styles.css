@@ -16,25 +16,21 @@ main {
 
 /* Colors styling */
 
-.colors-container {
+.container {
     max-width: 90vw;
     margin-left: 4vw;
     margin-top: 10vh;
     justify-content: center;
-    border: #201F2E 1px solid;
+    border: #201F2E 3px solid;
     border-radius: 2%;
 }
 
-.colors-container > h2 {
+.container > h2 {
     text-align: center;
     margin: 5px;
 }
 
-.colors-card-container {
-    /* max-width: 90%;
-    margin: 20px auto;
-    border: 3px solid;
-    padding: 20px; */
+.card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -42,95 +38,34 @@ main {
 
 .color-card {
     text-align: center;
-    min-width: 70px;
+    min-width: 100px;
     flex:1;
     border-radius: 2%;
-    margin: 3px;
-    max-width: 100px;
-}
-
-#black {
-    background-color: #232323;
-    color: white;
-    border: #232323 1px solid;
-}
-
-#white {
-    background-color: #fffe;
-    border: 1px solid;
-}
-
-#aqua {
-    background-color: #14bdbd;
-    border: 1px solid;
-
-}
-
-#teal {
-    background-color: #0b925e;
-    border: 1px solid;
-}
-
-#grey {
-    background-color: #201F2E;
-    color: #fffe;
-    border: #201F2E 1px solid;
+    margin: 5px;
+    max-width: 200px;
 }
 
 /* Fonts styling */
 
-.fonts-container {
-    max-width: 90%;
-    margin: 20px auto;
-    border: 3px solid #232323;
-    padding: 20px;
+#fonts-card-container,
+#font-size-container {
+    flex-direction: column;
 }
 
-.font {
-    display: inline-block;
-    width: 400px;
-    max-width: 700px;
-    text-align: center;
-    line-height: 30px;
-    font-size: 24px;
-    padding: 20px;
-    overflow: auto;
-}
-
-#pt-sans {
-    font-family: "PT Sans", sans-serif;
-}
-
-#roboto {
-    font-family: Roboto, sans-serif;
-}
-
-#helvetica {
-    font-family: Helvetica, sans-serif;
+.font-card,
+.font-size-card {
+    min-width: 100px;
+    flex:1;
+    border: #201F2E 1px solid;
+    border-radius: 2%;
+    margin: 10px;
 }
 
 /* Text Styles stying */
 
-.text-styles-container {
-    max-width: 90%;
-    margin: 20px auto;
-    border: 3px solid #232323;
-    padding: 20px;
-}
-
-.text-style {
-    padding: 10px 30px;
-    max-width: 700px;
-    overflow: auto;
-}
-
-.font-style-list {
-    padding: 10px;
-    font-size: 30px;
-}
-
 h1 {
     font-size: 55px;
+    text-align: center;
 }
 
 h2 {
@@ -140,6 +75,7 @@ h2 {
 h3 {
     padding-bottom: 10px;
     font-size: 30px;
+    text-align: center;
 }
 
 p {
